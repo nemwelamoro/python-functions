@@ -1,0 +1,9 @@
+
+import numpy as np
+
+x = np.linspace(0, 20, 100)  # Create a list of evenly-spaced numbers over the range
+
+print(x)
+
+x2 = [1,2,3,4,5,6]
+                
