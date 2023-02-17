@@ -17,3 +17,13 @@ print(predictions)
 
 print(rf_model.classes_)
 
+importances = rf_model.feature_importances_
+columns= X.columns
+i= 0
+
+while i < len(columns) :
+    print(f" the importance of features '{columns[i]}' is {round(importances[i]* 100,2)}%.")
+    i += 1
+
+
+
